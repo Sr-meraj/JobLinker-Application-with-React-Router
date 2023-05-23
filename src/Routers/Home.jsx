@@ -13,11 +13,19 @@ const Home = () => {
             .catch(err => alert(err))
     }, [])
     const loadedJobs = useLoaderData();
+
     useEffect(() => {
         const loadedSlicedJobs = loadedJobs.slice(0, 4);
         setJobs(loadedSlicedJobs)
     }, [loadedJobs])
-
+    
+    const seeMoreHandaler = () => { 
+        setJobs(loadedJobs)
+    }
+    const seeLessHandaler = () => { 
+        const loadedSlicedJobs = loadedJobs.slice(0, 4);
+        setJobs(loadedSlicedJobs)
+    }
 
     return (
         <div>
@@ -54,7 +62,7 @@ const Home = () => {
                         {jobs.map((job) => <Job key={job.id} job={job} />)}
                     </div>
                     <div className="flex justify-center">
-                        {jobs.length >= 4 ? <button className="bg-gradient-to-r from-indigo-400 to-purple-500 text-white px-4 py-2 rounded my-2"> See More </button> : <button className="bg-gradient-to-r from-indigo-400 to-purple-500 text-white px-4 py-2 rounded my-2"> See More </button>  }
+                        {jobs.length === 4 ? <button onClick={seeMoreHandaler} className="bg-gradient-to-r from-indigo-400 to-purple-500 text-white px-4 py-2 rounded my-2"> See More </button> : <button onClick={seeLessHandaler} className="bg-gradient-to-r from-indigo-400 to-purple-500 text-white px-4 py-2 rounded my-2"> See Less </button>  }
                     </div>
                 </div>
             </div>
