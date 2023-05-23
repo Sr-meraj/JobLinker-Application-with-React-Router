@@ -1,0 +1,24 @@
+{
+    "categories": [
+        {
+            "category_logo": "https://raw.githubusercontent.com/Rukshanarupu/assignment-image-link/main/Assignment-9-img/Icons/chip%201.png",
+            "category_name": "Engineering Job",
+            "jobs_available": 10
+        },
+        {
+            "category_logo": "https://raw.githubusercontent.com/Rukshanarupu/assignment-image-link/main/Assignment-9-img/Icons/social-media%201.png",
+            "category_name": "Marketing & Sales",
+            "jobs_available": 8
+        },
+        {
+            "category_logo": "https://raw.githubusercontent.com/Rukshanarupu/assignment-image-link/main/Assignment-9-img/Icons/business%201.png",
+            "category_name": "Creative Design",
+            "jobs_available": 6
+        },
+        {
+            "category_logo": "https://raw.githubusercontent.com/Rukshanarupu/assignment-image-link/main/Assignment-9-img/Icons/accounts%201.png",
+            "category_name": "Account & Finance",
+            "jobs_available": 12
+        }
+    ]
+}
