@@ -1,4 +1,5 @@
 // import { useEffect, useState } from "react";
+import { BriefcaseIcon, ClockIcon, CurrencyDollarIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import { useLoaderData } from "react-router-dom";
 // import { toast } from "react-toastify";
 import TittleBanner from "../../Components/TitleBanner/TittleBanner";
@@ -47,38 +48,59 @@ const FeaturedDetails = () => {
                     <div className="">
                         <div className="bg-purple-100  px-6 py-4 rounded-md">
                             <h3 className="text-2xl py-4 text-black font-bold border-b-2 border-black">Job Details</h3>
-                            <div className="text-base">
+                            <div className="text-xl">
 
-                                <p className="py-2">
-                                    <span className="font-bold">Job Title: </span>
-                                    {job_title}
-                                </p>
-                                <p className="py-2">
-                                    <span className="font-bold">Job Salary: </span>
+                                <p className="py-2  flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <BriefcaseIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Job Salary: </span>
                                     {salary}
                                 </p>
-                                <p className="py-2">
-                                    <span className="font-bold">Job Remote/Onsite: </span>
+                                <p className="py-2 flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <CurrencyDollarIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Job Title: </span>
+                                    {job_title}
+                                </p>
+                                <p className="py-2 flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <BriefcaseIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Job Remote/Onsite: </span>
                                     {remote_or_onsite}
                                 </p>
-                                <p className="py-2">
-                                    <span className="font-bold">Fulltime/Parttime: </span>
+                                <p className="py-2 flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <ClockIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Fulltime/Parttime: </span>
                                     {fulltime_parttime}
                                 </p>
                             </div>
                             <h3 className="text-2xl py-4 text-black font-bold border-b-2 border-black">Contact Information</h3>
-                            <div className="text-base">
+                            <div className="text-xl">
 
-                                <p className="py-2">
-                                    <span className="font-bold">Phone: </span>
+                                <p className="py-2 flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <PhoneIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Phone: </span>
                                     {contact_information.phone}
                                 </p>
-                                <p className="py-2">
-                                    <span className="font-bold">Email:</span>
+                                <p className="py-2 flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <EnvelopeIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Email:</span>
                                     {contact_information.email}
                                 </p>
-                                <p className="py-2">
-                                    <span className="font-bold">Job Location:</span>
+                                <p className="py-2 flex items-center gap-2">
+                                    <span className="text-indigo-500">
+                                        <MapPinIcon className="w-5 h-5" />
+                                    </span>
+                                    <span className="font-semibold">Job Location:</span>
                                     {location}
                                 </p>
                             </div>
