@@ -1,6 +1,5 @@
 import TittleBanner from "../Components/TitleBanner/TittleBanner";
-import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from 'recharts';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Tooltip } from 'recharts';
 
 
 const Statistic = () => {
@@ -18,24 +17,13 @@ const Statistic = () => {
             {/* RadarChart */}
             <div className="flex  justify-center sm:justify-between  py-10 container mx-auto px-10 gap-10 flex-col sm:flex-row">
                 <div className="w-full sm:w-1/2 ">
-
-                    <RadarChart width={250} height={200} cx="50%" cy="50%" outerRadius="80%" data={data}>
+                    <RadarChart width={300} height={300} cx="50%" cy="50%" outerRadius="80%" data={data}>
                         <PolarGrid />
                         <PolarAngleAxis dataKey="assignmentNumber" />
                         <PolarRadiusAxis />
                         <Tooltip />
                         <Radar name="A" dataKey="marks" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
                     </RadarChart>
-                </div>
-                <div className="w-full sm:w-1/2 ">
-
-                    <LineChart width={250} height={200} data={data}>
-                        <XAxis dataKey="assignmentNumber" />
-                        <YAxis />
-                        <CartesianGrid stroke="#ff23ff" />
-                        <Tooltip />
-                        <Line type="monotone" dataKey="marks" stroke="#8884d8" strokeWidth={2} />
-                    </LineChart>
                 </div>
             </div>
         </div>

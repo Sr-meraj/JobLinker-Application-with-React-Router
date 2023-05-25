@@ -60,7 +60,7 @@ const Header = () => {
 
                 {/* <!-- Mobile menu, show/hide based on menu state. --> */}
                 <div className={`sm:hidden ${mobileMenu ? 'block' : 'hidden'} transition-all duration-500 ease-linear overflow-clip`} id="mobile-menu">
-                    <div className="space-y-1 px-2 pb-3 pt-2 flex flex-col gap-4 bg-indigo-100 dark:bg-slate-600">
+                    <div className="space-y-1 px-2 pb-3 pt-2 flex flex-col gap-4 absolute w-full transition-all duration-500 ease-linear bg-indigo-100 dark:bg-slate-600">
                         {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                         <ActiveLink to="/" aria-current="page">Home</ActiveLink>
                         <ActiveLink to="/statistics" >Statistics</ActiveLink>
