@@ -1,6 +1,6 @@
 // import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/JobLinker.jpg";
 import ActiveLink from "../ActiveLink/ActiveLink";
 
@@ -38,8 +38,14 @@ const Header = () => {
                         </div>
                         <div className="flex flex-1 items-center justify-end sm:items-stretch sm:justify-between">
                             <div className="flex flex-shrink-0 items-center">
-                                <img className="block h-8 w-auto lg:hidden" src={logo} alt="JobLinker" />
-                                <img className="hidden h-8 w-auto lg:block" src={logo} alt="JobLinker" />
+                                <NavLink to="/" aria-current="page">
+
+                                    <img className="block h-8 w-auto lg:hidden" src={logo} alt="JobLinker" />
+                                </NavLink>
+                                <NavLink to="/" aria-current="page">
+
+                                    <img className="hidden h-8 w-auto lg:block" src={logo} alt="JobLinker" />
+                                </NavLink>
                             </div>
                             <div className="hidden sm:ml-6 sm:flex">
                                 <div className="flex space-x-4 items-center">
@@ -60,7 +66,7 @@ const Header = () => {
 
                 {/* <!-- Mobile menu, show/hide based on menu state. --> */}
                 <div className={`sm:hidden ${mobileMenu ? 'block' : 'hidden'} transition-all duration-500 ease-linear overflow-clip`} id="mobile-menu">
-                    <div className="space-y-1 px-2 pb-3 pt-2 flex flex-col gap-4 absolute w-full transition-all duration-500 ease-linear bg-indigo-100 dark:bg-slate-600">
+                    <div className="space-y-1 px-2 pb-3 pt-2 flex flex-col gap-4 absolute w-full transition-all duration-500 ease-linear bg-indigo-100 dark:bg-slate-600 z-50">
                         {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                         <ActiveLink to="/" aria-current="page">Home</ActiveLink>
                         <ActiveLink to="/statistics" >Statistics</ActiveLink>
