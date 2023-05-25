@@ -14,8 +14,8 @@ const Job = ({ job }) => {
                     <button className="border border-purple-600 px-4 py-1 rounded my-2"> {job.fulltime_parttime}</button>
                 </div>
                 <div className="flex gap-3 font-semibold mb-6">
-                <p>{job.location}</p> 
-                <p>{job.salary}</p>
+                    <p>{job.location}</p>
+                    <p>{job.salary}</p>
                 </div>
                 {/* view button */}
                 <Link to={`/feature/${job.id}`} className="bg-gradient-to-r from-indigo-400 to-purple-500 text-white px-4 py-2 rounded my-3"> View Details </Link>
