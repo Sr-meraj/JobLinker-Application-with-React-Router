@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Job = ({ job }) => {
     return (
         <div>
-            <div className="border rounded-xl p-8 cursor-pointer">
+            <div className="border rounded-xl p-8 cursor-pointer flex flex-col items-center sm:items-start">
                 <img src={job.company_logo} alt="" className=" w-44 h-20 object-fill p-4" />
                 <h3 className="text-3xl font-semibold mt-4">{job.job_title}</h3>
-                <p>{job.company_name}  </p>
+                <p className="text-lg font-bold text-gray-400">{job.company_name}  </p>
                 <div className="flex gap-3 py-2">
                     <button className="border border-purple-600 px-4 py-1 rounded my-2"> {job.remote_or_onsite}</button>
                     <button className="border border-purple-600 px-4 py-1 rounded my-2"> {job.fulltime_parttime}</button>

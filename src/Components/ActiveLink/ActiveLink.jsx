@@ -6,7 +6,7 @@ const ActiveLink = ({ to, children }) => {
     return (
         <NavLink
             to={to}
-            className={`dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm`}
+            className={`block sm:inline-block dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-4 py-4 sm:px-3 sm:py-2 text-base`}
         >
             {children}
         </NavLink>

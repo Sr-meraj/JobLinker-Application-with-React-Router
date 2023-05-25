@@ -12,7 +12,7 @@ const Home = () => {
             .then(data => setCategories(data.categories))
             .catch(err => alert(err))
     }, [])
-    
+
     // const detailsHandaler = (job) => {
     //     console.log(job);
     // }
@@ -43,8 +43,8 @@ const Home = () => {
                 </div>
             </div>
             {/* jobs list */}
-            <div>
-                <Feature/>
+            <div id='apply'>
+                <Feature />
             </div>
         </div>
     );
