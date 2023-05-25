@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
+// import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/JobLinker.jpg";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 /* eslint-disable react/no-unknown-property */
 const Header = () => {
     return (
         <div>
-            <nav className="bg-gray-50 dark:bg-slate-800">
+            <nav className="bg-gray-100 dark:bg-slate-800">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 container">
                     <div className="relative flex h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -36,10 +37,10 @@ const Header = () => {
                             <div className="hidden sm:ml-6 sm:flex">
                                 <div className="flex space-x-4 items-center">
                                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                                    <Link to="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-semibold" aria-current="page">Home</Link>
-                                    <Link to="/statistics" className="dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm">Statistics</Link>
-                                    <Link to="/applied" className="dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm">Applied Jobs</Link>
-                                    <Link to="/blog" className="dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm">Blog</Link>
+                                    <ActiveLink to="/" className=" text-white rounded-md px-3 py-2 text-sm font-semibold">Home</ActiveLink>
+                                    <ActiveLink to="/statistics" className="">Statistics</ActiveLink>
+                                    <ActiveLink to="/applied" className="dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm">Applied Jobs</ActiveLink>
+                                    <ActiveLink to="/blog" className="dark:text-gray-300 font-semibold hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm">Blog</ActiveLink>
 
                                 </div>
                             </div>
@@ -54,16 +55,16 @@ const Header = () => {
                 <div className="sm:hidden" id="mobile-menu">
                     <div className="space-y-1 px-2 pb-3 pt-2">
                         {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                        <Link to="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-base block font-medium" aria-current="page">Home</Link>
-                        <Link to="/statistics" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">Statistics</Link>
-                        <Link to="/applied" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">Applied Jobs</Link>
-                        <Link to="/blog" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">Blog</Link>
+                        <ActiveLink to="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-base block font-medium" aria-current="page">Home</ActiveLink>
+                        <ActiveLink to="/statistics" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">Statistics</ActiveLink>
+                        <ActiveLink to="/applied" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">Applied Jobs</ActiveLink>
+                        <ActiveLink to="/blog" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">Blog</ActiveLink>
 
-                        <Link className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">
+                        <ActiveLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base block font-medium">
                             <button className=" px-3.5 py-2.5 rounded-md font-medium text-white text-lg bg-gradient-to-l from-indigo-600 to-purple-600 w-full">
                                 Star Applying
                             </button>
-                        </Link>
+                        </ActiveLink>
                     </div>
                 </div>
             </nav>

@@ -25,13 +25,9 @@ const AppliedJobs = () => {
             return ajobs;
         }
         const filterd = ajobs.filter(job => job.remote_or_onsite === selectedFilter);
-        console.log(filterd);
         return filterd;
-
     }, [ajobs, selectedFilter]);
 
-    console.log(selectedFilter);
-    console.log(ajobs);
     return (
         <div>
             <TittleBanner>Applied Job: {filteredAjobs ? filteredAjobs.length : ajobs.length}</TittleBanner>
