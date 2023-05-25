@@ -1,184 +1,182 @@
-{
-    "jobs": [
-        {
-            "id": 1,
-            "company_logo": "https://example.com/company1_logo.png",
-            "job_title": "Software Engineer",
-            "company_name": "ABC Inc.",
-            "remote_or_onsite": "Remote",
-            "location": "Any",
-            "fulltime_parttime": "Full-time",
-            "salary": "$80,000K - $100,000K",
-            "job_description": "ABC Inc. is seeking a skilled Software Engineer...",
-            "job_responsibility": "Develop and maintain high-quality software...",
-            "educational_requirements": "Bachelor's degree in Computer Science...",
-            "experiences": "3+ years of experience in software development...",
-            "contact_information": {
-                "phone": "123-456-7890",
-                "email": "jobs@abcinc.com"
-            }
-        },
-        {
-            "id": 2,
-            "company_logo": "https://example.com/company2_logo.png",
-            "job_title": "Marketing Manager",
-            "company_name": "XYZ Corp.",
-            "remote_or_onsite": "Onsite",
-            "location": "New York, NY",
-            "fulltime_parttime": "Full-time",
-            "salary": "$70,000K - $90,000K",
-            "job_description": "XYZ Corp. is looking for an experienced Marketing Manager...",
-            "job_responsibility": "Develop and implement marketing strategies...",
-            "educational_requirements": "Bachelor's degree in Marketing or related field...",
-            "experiences": "5+ years of marketing experience...",
-            "contact_information": {
-                "phone": "555-123-4567",
-                "email": "hr@xyzcorp.com"
-            }
-        },
-        {
-            "id": 3,
-            "company_logo": "https://example.com/company3_logo.png",
-            "job_title": "Graphic Designer",
-            "company_name": "Design Co.",
-            "remote_or_onsite": "Onsite",
-            "location": "Los Angeles, CA",
-            "fulltime_parttime": "Part-time",
-            "salary": "$25 - $30 per hour",
-            "job_description": "Design Co. is seeking a talented Graphic Designer...",
-            "job_responsibility": "Create visually appealing designs...",
-            "educational_requirements": "Bachelor's degree in Graphic Design...",
-            "experiences": "2+ years of graphic design experience...",
-            "contact_information": {
-                "phone": "987-654-3210",
-                "email": "info@designco.com"
-            }
-        },
-        {
-            "id": 4,
-            "company_logo": "https://example.com/company4_logo.png",
-            "job_title": "Financial Analyst",
-            "company_name": "Finance Corp.",
-            "remote_or_onsite": "Remote",
-            "location": "Any",
-            "fulltime_parttime": "Full-time",
-            "salary": "$60,000K - $80,000K",
-            "job_description": "Finance Corp. is hiring a Financial Analyst...",
-            "job_responsibility": "Analyze financial data...",
-            "educational_requirements": "Bachelor's degree in Finance or related field...",
-            "experiences": "3+ years of experience in financial analysis...",
-            "contact_information": {
-                "phone": "111-222-3333",
-                "email": "careers@financecorp.com"
-            }
-        },
-        {
-            "id": 5,
-            "company_logo": "https://example.com/company5_logo.png",
-            "job_title": "Sales Representative",
-            "company_name": "Sales Solutions",
-            "remote_or_onsite": "Onsite",
-            "location": "Chicago, IL",
-            "fulltime_parttime": "Full-time",
-            "salary": "Commission-based",
-            "job_description": "Join Sales Solutions as a Sales Representative...",
-            "job_responsibility": "Identify and contact potential clients...",
-            "educational_requirements": "High school diploma or equivalent...",
-            "experiences": "1+ year of sales experience...",
-            "contact_information": {
-                "phone": "999-888-7777",
-                "email": "sales@salessolutions.com"
-            }
-        },
-        {
-            "id": 6,
-            "company_logo": "https://example.com/company6_logo.png",
-            "job_title": "Human Resources Manager",
-            "company_name": "HR Solutions",
-            "remote_or_onsite": "Onsite",
-            "location": "Houston, TX",
-            "fulltime_parttime": "Full-time",
-            "salary": "$70,000K - $90,000K",
-            "job_description": "HR Solutions is seeking an experienced HR Manager...",
-            "job_responsibility": "Manage employee recruitment...",
-            "educational_requirements": "Bachelor's degree in Human Resources...",
-            "experiences": "5+ years of HR management experience...",
-            "contact_information": {
-                "phone": "444-555-6666",
-                "email": "hr@hrsolutions.com"
-            }
-        },
-        {
-            "id": 7,
-            "company_logo": "https://example.com/company7_logo.png",
-            "job_title": "Customer Service Representative",
-            "company_name": "Service First",
-            "remote_or_onsite": "Remote",
-            "location": "Any",
-            "fulltime_parttime": "Part-time",
-            "salary": "$15 - $20 per hour",
-            "job_description": "Service First is hiring Customer Service Representatives...",
-            "job_responsibility": "Assist customers with inquiries...",
-            "educational_requirements": "High school diploma or equivalent...",
-            "experiences": "1+ year of customer service experience...",
-            "contact_information": {
-                "phone": "777-888-9999",
-                "email": "info@servicefirst.com"
-            }
-        },
-        {
-            "id": 8,
-            "company_logo": "https://example.com/company8_logo.png",
-            "job_title": "Operations Manager",
-            "company_name": "Operations Inc.",
-            "remote_or_onsite": "Onsite",
-            "location": "Seattle, WA",
-            "fulltime_parttime": "Full-time",
-            "salary": "$80,000K - $100,000K",
-            "job_description": "Operations Inc. is seeking an Operations Manager...",
-            "job_responsibility": "Oversee day-to-day operations...",
-            "educational_requirements": "Bachelor's degree in Business Administration...",
-            "experiences": "3+ years of operations management experience...",
-            "contact_information": {
-                "phone": "123-987-6543",
-                "email": "jobs@operationsinc.com"
-            }
-        },
-        {
-            "id": 9,
-            "company_logo": "https://example.com/company9_logo.png",
-            "job_title": "Data Analyst",
-            "company_name": "Data Solutions",
-            "remote_or_onsite": "Remote",
-            "location": "Any",
-            "fulltime_parttime": "Full-time",
-            "salary": "$70,000K - $90,000K",
-            "job_description": "Data Solutions is hiring a Data Analyst...",
-            "job_responsibility": "Collect and analyze data...",
-            "educational_requirements": "Bachelor's degree in Statistics or related field...",
-            "experiences": "2+ years of experience in data analysis...",
-            "contact_information": {
-                "phone": "999-777-5555",
-                "email": "data@datasolutions.com"
-            }
-        },
-        {
-            "id": 10,
-            "company_logo": "https://example.com/company10_logo.png",
-            "job_title": "Project Manager",
-            "company_name": "Project Solutions",
-            "remote_or_onsite": "Remote",
-            "location": "Any",
-            "fulltime_parttime": "Full-time",
-            "salary": "$90,000K - $110,000K",
-            "job_description": "Join Project Solutions as a Project Manager...",
-            "job_responsibility": "Lead and manage project teams...",
-            "educational_requirements": "Bachelor's degree in Project Management...",
-            "experiences": "5+ years of project management experience...",
-            "contact_information": {
-                "phone": "555-444-3333",
-                "email": "info@projectsolutions.com"
-            }
+[
+    {
+        "id": "M7G4T8",
+        "company_logo": "https://github.com/Sr-meraj/JobLinker-Application-with-React-Router/blob/main/src/assets/Logo/google-1-1%201-1.png?raw=true",
+        "job_title": "Software Engineer",
+        "company_name": "ABC Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_parttime": "Full-time",
+        "salary": "$80,000K - $100,000K",
+        "job_description": "ABC Inc. is seeking a skilled Software Engineer to join our dynamic team. In this role, you will be responsible for developing and maintaining high-quality software solutions. You will work collaboratively with cross-functional teams to design, implement, and test software applications, ensuring they meet the specified requirements. We are looking for candidates with a strong background in software development and a passion for delivering innovative solutions. If you are a self-motivated individual with excellent problem-solving skills, we would love to hear from you.",
+        "job_responsibility": "Responsibilities:\n\n- Develop and maintain high-quality software solutions\n- Collaborate with cross-functional teams to define, design, and ship new features\n- Write clean, maintainable, and efficient code\n- Debug and resolve software defects and issues\n- Participate in code reviews to ensure code quality\n- Stay up-to-date with the latest industry trends and technologies\n- Contribute to the continuous improvement of development processes\n- Collaborate with product managers and stakeholders to understand and refine project requirements\n- Provide technical guidance and support to junior developers\n- Work effectively in an agile development environment\n\nQualifications:\n\n- Bachelor's degree in Computer Science or a related field\n- 3+ years of experience in software development\n- Strong proficiency in one or more programming languages (e.g., Java, Python, C++)\n- Experience with web application development frameworks (e.g., Django, Ruby on Rails)\n- Knowledge of software engineering principles and best practices\n- Familiarity with version control systems (e.g., Git)\n- Excellent problem-solving and analytical skills\n- Strong written and verbal communication skills\n\nIf you are interested in this position, please apply with your updated resume and portfolio. We look forward to reviewing your application.",
+        "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+        "experiences": "3+ years of experience in software development",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "jobs@abcinc.com"
         }
-    ]
-}
+    },
+    {
+        "id": "S5V2P9",
+        "company_logo": "https://github.com/Sr-meraj/JobLinker-Application-with-React-Router/blob/main/src/assets/Logo/tesla-9%201.png?raw=true",
+        "job_title": "Marketing Manager",
+        "company_name": "XYZ Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_parttime": "Full-time",
+        "salary": "$70,000K - $90,000K",
+        "job_description": "XYZ Corp. is looking for an experienced Marketing Manager to join our team in New York. As a Marketing Manager, you will be responsible for developing and implementing effective marketing strategies to promote our products and services. You will work closely with cross-functional teams, including sales, design, and product development, to drive brand awareness and achieve marketing goals. The ideal candidate has a strong background in marketing, excellent communication skills, and a creative mindset. If you are a strategic thinker with a passion for marketing and a proven track record of success, we would love to hear from you.",
+        "job_responsibility": "Responsibilities:\n\n- Develop and implement comprehensive marketing strategies\n- Conduct market research and analysis to identify target audiences and trends\n- Plan and execute marketing campaigns across various channels\n- Collaborate with the design team to create engaging marketing materials\n- Manage and optimize digital marketing efforts, including SEO, SEM, and social media\n- Monitor and report on the effectiveness of marketing campaigns\n- Coordinate with sales teams to align marketing and sales initiatives\n- Analyze customer insights and adjust marketing strategies accordingly\n- Stay up-to-date with industry trends and best practices\n- Manage marketing budgets and allocate resources effectively\n- Lead and mentor a team of marketing professionals\n\nQualifications:\n\n- Bachelor's degree in Marketing or a related field\n- 5+ years of experience in marketing\n- Proven track record of developing and implementing successful marketing strategies\n- Strong analytical and strategic thinking skills\n- Excellent written and verbal communication skills\n- Proficiency in digital marketing tools and platforms\n- Creative mindset with the ability to think outside the box\n- Strong leadership and team management abilities\n\nIf you are interested in this position, please submit your resume and a cover letter outlining your relevant experience. We look forward to hearing from you.",
+        "educational_requirements": "Bachelor's degree in Marketing or a related field",
+        "experiences": "5+ years of marketing experience",
+        "contact_information": {
+            "phone": "555-123-4567",
+            "email": "hr@xyzcorp.com"
+        }
+    },
+    {
+        "id": "F8C3W6",
+        "company_logo": "https://github.com/Sr-meraj/JobLinker-Application-with-React-Router/blob/main/src/assets/Logo/netflix-4%201.png?raw=true",
+        "job_title": "Graphic Designer",
+        "company_name": "Design Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_parttime": "Part-time",
+        "salary": "$25 - $30 per hour",
+        "job_description": "Join our Design Studio as a Graphic Designer and create visually appealing designs. Collaborate with clients and design team to deliver creative solutions. 2+ years of graphic design experience required.",
+        "job_responsibility": "Responsibilities:\n\n- Create visually appealing designs\n- Collaborate with clients and design team\n- Develop design concepts\n- Present design proposals\n- Incorporate feedback into designs\n- Ensure brand consistency\n- Manage multiple design projects\n- Stay updated with design trends\n- Use design software proficiently\n- Meet project deadlines",
+        "educational_requirements": "Bachelor's degree in Graphic Design...",
+        "experiences": "2+ years of graphic design experience",
+        "contact_information": {
+            "phone": "987-654-3210",
+            "email": "info@designco.com"
+        }
+    },
+    {
+        "id": "K1R6N3",
+        "company_logo": "https://images.squarespace-cdn.com/content/60fcaf5522d03451162ebb45/1635983495713-XJ6RNWRZ8HAEHRDTN4EH/cfc-logo-hdr-tall-blu.png?content-type=image%2Fpng",
+        "job_title": "Financial Analyst",
+        "company_name": "Community Finance Corp.",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_parttime": "Full-time",
+        "salary": "$60,000K - $80,000K",
+        "job_description": "Finance Solutions is hiring a Financial Analyst to analyze financial data and provide insights. Collaborate with teams to optimize financial performance. 3+ years of financial analysis experience required.",
+        "job_responsibility": "Responsibilities:\n\n- Analyze financial data\n- Identify trends and patterns\n- Prepare financial reports\n- Evaluate financial performance\n- Provide insights and recommendations\n- Collaborate with teams\n- Support financial planning\n- Conduct cost analysis\n- Assist in budgeting process\n- Stay updated with industry regulations",
+        "educational_requirements": "Bachelor's degree in Finance or related field...",
+        "experiences": "3+ years of experience in financial analysis...",
+        "contact_information": {
+            "phone": "111-222-3333",
+            "email": "careers@financecorp.com"
+        }
+    },
+    {
+        "id": "A4H9E5",
+        "company_logo": "https://osxsales.com/wp-content/uploads/2019/10/osx-sales-solutions-logo.png",
+        "job_title": "Sales Representative",
+        "company_name": "Sales Solutions",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "fulltime_parttime": "Full-time",
+        "salary": "Commission-based",
+        "job_description": "Join Sales Solutions as a Sales Representative...",
+        "job_responsibility": "'Identify' and contact potential clients...",
+        "educational_requirements": "High school diploma or equivalent...",
+        "experiences": "1+ year of sales experience...",
+        "contact_information": {
+            "phone": "999-888-7777",
+            "email": "sales@salessolutions.com"
+        }
+    },
+    {
+        "id": "T6N1Q8",
+        "company_logo": "https://raw.githubusercontent.com/Rukshanarupu/assignment-image-link/main/Assignment-9-img/company/capital.png",
+        "job_title": "Human Resources Manager",
+        "company_name": "CP capital",
+        "remote_or_onsite": "Onsite",
+        "location": "Houston, TX",
+        "fulltime_parttime": "Full-time",
+        "salary": "$70,000K - $90,000K",
+        "job_description": "HR Solutions is hiring a Human Resources Manager to oversee HR activities. Develop policies, manage recruitment, and support employee engagement. 5+ years of HR management experience required.",
+        "job_responsibility": "Responsibilities:\n\n- Develop HR policies\n- Manage recruitment process\n- Conduct interviews and onboarding\n- Implement performance management\n- Ensure compliance with employment laws\n- Handle employee relations\n- Support employee engagement\n- Manage HR data and records\n- Provide HR guidance\n- Coordinate training and development",
+        "educational_requirements": "Bachelor's degree in Human Resources...",
+        "experiences": "5+ years of HR management experience...",
+        "contact_information": {
+            "phone": "444-555-6666",
+            "email": "hr@hrsolutions.com"
+        }
+    },
+    {
+        "id": "R2J7D4",
+        "company_logo": "https://raw.githubusercontent.com/Rukshanarupu/assignment-image-link/main/Assignment-9-img/Logo/pngwing-com-1.png",
+        "job_title": "Marketing Manager",
+        "company_name": "MicroSoft",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_parttime": "Part-time",
+        "salary": "$15 - $20 per hour",
+        "job_description": "Service First is hiring Customer Service Representatives...",
+        "job_responsibility": "Assist customers with inquiries...",
+        "educational_requirements": "High school diploma or equivalent...",
+        "experiences": "1+ year of customer service experience...",
+        "contact_information": {
+            "phone": "777-888-9999",
+            "email": "info@servicefirst.com"
+        }
+    },
+    {
+        "id": "G9P5X2",
+        "company_logo": "https://thomasdigital.com/wp-content/uploads/2021/04/Operations-Inc.png",
+        "job_title": "Operations Manager",
+        "company_name": "Operations Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA",
+        "fulltime_parttime": "Full-time",
+        "salary": "$80,000K - $100,000K",
+        "job_description": "Operations Inc. is seeking an Operations Manager...",
+        "job_responsibility": "Oversee day-to-day operations...",
+        "educational_requirements": "Bachelor's degree in Business Administration...",
+        "experiences": "3+ years of operations management experience...",
+        "contact_information": {
+            "phone": "123-987-6543",
+            "email": "jobs@operationsinc.com"
+        }
+    },
+    {
+        "id": "L83M6B",
+        "company_logo": "https://images.squarespace-cdn.com/content/v1/5eab3148a60be427b8a4a09c/d182b247-3d5e-4ccc-ab53-1adacfd84de5/ds-logo-sps-21a-400.png",
+        "job_title": "Data Analyst",
+        "company_name": "Data Solutions",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_parttime": "Full-time",
+        "salary": "$70,000K - $90,000K",
+        "job_description": "Data Solutions is hiring a Data Analyst...",
+        "job_responsibility": "Collect and analyze data...",
+        "educational_requirements": "Bachelor's degree in Statistics or related field...",
+        "experiences": "2+ years of experience in data analysis...",
+        "contact_information": {
+            "phone": "999-777-5555",
+            "email": "data@datasolutions.com"
+        }
+    },
+    {
+        "id": "X47K92",
+        "company_logo": "https://projectsolutions-pa.com/wp-content/uploads/2021/03/logotransh.png",
+        "job_title": "Project Manager",
+        "company_name": "Project Solutions",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_parttime": "Full-time",
+        "salary": "$90,000K - $110,000K",
+        "job_description": "Join Project Solutions as a Project Manager...",
+        "job_responsibility": "Lead and manage project teams...",
+        "educational_requirements": "Bachelor's degree in Project Management...",
+        "experiences": "5+ years of project management experience...",
+        "contact_information": {
+            "phone": "555-444-3333",
+            "email": "info@projectsolutions.com"
+        }
+    }
+]

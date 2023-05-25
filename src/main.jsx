@@ -7,18 +7,41 @@ import {
 import MainLayout from './Routers/MainLayout';
 import Home from './Routers/Home';
 import "./index.css";
-import { JobsLoader } from './Loader/Loader';
+import { jobFeature, JobsLoader } from './Loader/Loader';
+import FeaturedDetails from './Routers/FeaturedDetails/FeaturedDetails';
+import ErrorPage from './Routers/error-page';
+import Blog from './Routers/Blog';
+import Statistic from './Routers/Statistic';
+import AppliedJobs from './Routers/AppliedJobs';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />,
+    element: <MainLayout />, 
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Home />, 
         loader: JobsLoader,
-      }
+      },
+      {
+        path: "feature/:jobId",
+        element: <FeaturedDetails />, 
+        loader: jobFeature,
+      },
+      {
+        path: "statistics",
+        element: <Statistic />, 
+      },
+      {
+        path: "applied",
+        element: <AppliedJobs />, 
+      },
+      {
+        path: "blog",
+        element: <Blog />, 
+      },
     ],
   },
 ]);
